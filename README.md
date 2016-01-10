@@ -20,6 +20,8 @@ Run:
 ## Notes
 - Word list is in memory  
 - Didn't check if it supports unicode.  
+- If a word like NodeNodePrime existed and if the wordlist has [node, prime, NodeNodePrime] it'd count it as a compound word.
+- It's case sensitive.
 
 ## Speed
 Fast enough?
