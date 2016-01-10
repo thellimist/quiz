@@ -4,11 +4,12 @@
 Q: Given a list of words like https://github.com/NodePrime/quiz/blob/master/word.list find the longest compound-word in the list, which is also a concatenation of other sub-words that exist in the list. The program should allow the user to input different data. The finished solution shouldn't take more than one hour. Any programming language can be used, but Go is preferred.
 
 ## Installation
-Download: `go get github.com/thellimist/quiz`
-Build:    `go build`
-Run:      `./quiz -f word.list`
-          `./quiz -f ./inputs/words.txt`
-          `./quiz -f ./inputs/words2.txt`
+Download: `go get github.com/thellimist/quiz`  
+Build:    `go build`  
+Run:      
+`./quiz -f word.list`         
+`./quiz -f ./inputs/words.txt`  
+`./quiz -f ./inputs/words2.txt`  
 
 ## How it works
 1) We read the file
@@ -20,8 +21,8 @@ Run:      `./quiz -f word.list`
 - Word list is in memory
 - Didn't check if it supports unicode.
 
-
-
+## Speed
+Fast enough?
 
 
 
