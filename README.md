@@ -12,14 +12,14 @@ Run:
 `./quiz -f ./inputs/words2.txt`  
 
 ## How it works
-1) We read the file
-2) We sort the file (for faster search)
-3) We iterate over the sorted word list
-    - Recursively check if the iterated word is a compound word
+1) We read the file  
+2) We sort the file (for faster search)  
+3) We iterate over the sorted word list  
+4) Recursively check if the iterated word is a compound word   
 
 ## Notes
-- Word list is in memory
-- Didn't check if it supports unicode.
+- Word list is in memory  
+- Didn't check if it supports unicode.  
 
 ## Speed
 Fast enough?
